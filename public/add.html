@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        body {
+          background-image: url('https://www.pngitem.com/pimgs/m/1-10300_download-world-map-png-image-transparent-background-maps.png');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+        }
+        </style>
+    <title>Add Place</title>
+</head>
+<body>
+    <div class="container my-3">
+        <h1 class="display-4 text-center">
+          <b>Add New Place</b>
+        </h1>
+  
+        <form id="store-form" class="mb-4">
+          <div class="form-group">
+            <label for="store-id"><b>Store ID</b></label>
+            <input type="text" id="store-id" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="store-address"><b>Store Address</b></label>
+            <input type="text" id="store-address" class="form-control" />
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <a href="index.html" class="btn btn-secondary">Back</a>
+        </form>
+      </div>
+  
+      <script src="js/add.js"></script>
+</body>
+</html>
